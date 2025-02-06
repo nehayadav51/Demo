@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Event Registration Form</h1>
+    <h1>Job Application Form</h1>
 
     <label for="xy">Username :</label>
     <input type="text" id="xy" placeholder="Enter Name">
@@ -20,6 +20,18 @@
     <input type="tel" id="x" placeholder="Enter Phone Number">
     <br>
     <br>
+    <label for="counter">Experience (in years) :</label>
+    <input type="number" id="counter" min="0" max="50">
+    <br>
+    <br>
+    <label for="dob">DOB</label>
+    <input type="date" id="dob">
+    <br>
+    <br>
+    <label for="fileUpload">Resume :</label>
+    <input type="file" id="fileUpload">
+    <br>
+    <br>
     <label for="a">Occupation :</label>
     <select id="a">
         <option value="student">Student</option>
@@ -29,7 +41,7 @@
     <br>
     <br>
     <fieldset>
-        <legend>Topics of Interest :</legend>
+        <legend>Skills :</legend>
 
         <label for="n">HTML</label>
         <input type="checkbox" id="n">
@@ -40,10 +52,33 @@
     </fieldset>
     <br>
     <br>
+    <!-- Drop down -->
+    <label for="education">Highest Education :</label>
+    <select id="education">
+        <option value="High School">High School</option>
+        <option value="Bachelor's Degree">Bachelor's Degree</option>
+        <option value="Master's Degree">Master's Degree</option>
+        <option value="Associate's Degree">Associate's Degree</option>
+        <option value="Phd">Phd</option>
+    </select>
+    <br>
+    <br>
+    <!-- Radio Buttons -->
+     <fieldset>
+        <legend>Availability</legend>
+            <label for="ft">Full-Time</label>
+            <input type="radio" name="fulltime"id=ft>
+            <br>
+            <label for="pt">Part-Time</label>
+            <input type="radio" name="fulltime"id=pt>
+        
+     </fieldset>
+    <br>
+    <br>
     <label for="z">Comments :</label>
     <textarea id="z"></textarea>
     <br>
     <br>
-    <input type="submit" value="Register">
+    <input type="submit" value="Submit Application">
 </body>
 </html>
