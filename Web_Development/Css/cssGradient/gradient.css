@@ -1,6 +1,14 @@
 .box{
     border:1px solid black;
-    height:200px;
+    height:300px;
+    width:200px;
+    padding:10px;
+    background-image: linear-gradient(to bottom,orange,white,green);
+}
+.grad{
+    border:1px solid black;
+    margin:10px;
+    height: 250px;
     width:250px;
-    background-image: linear-gradient(to top, pink, rgb(218, 54, 218));
+    background-image: radial-gradient(rgb(202, 7, 7),rgb(212, 54, 6),rgb(228, 170, 13), rgb(185, 137, 6));
 }
