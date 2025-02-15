@@ -1,5 +1,11 @@
+.container{
+    height:4000px;
+    border:2px solid black;
+    display:flex;
+    flex-direction: column;
+}
 .box{
     border:1px solid black;
-    height:250px;
-    width:250px;
+    background-color: pink;
+    width: 50px;
 }
